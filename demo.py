@@ -142,7 +142,7 @@ def main() -> None:
     parser.add_argument(
         "--use-maturin",
         action=argparse.BooleanOptionalAction,
-        default=True,
+        default=False,
         help=(
             "Load the Rust module installed by maturin (default). "
             "Use --no-use-maturin to load it from target/ instead."
